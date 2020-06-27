@@ -1,0 +1,2144 @@
+@charset "utf-8";
+/* CSS Document */
+
+.marketing-two-columns-panel, pagePresentationContentUnit { padding: 40px; }
+.marketing-two-columns-panel h2, pagePresentationContentUnit h2 { font-size: 36px; font-family: "aig_futuraheavy",Arial,Helvetica,sans-serif; }
+.marketing-two-columns-panel h3, pagePresentationContentUnit h3 { font-size: 26px; font-family: "aig_futuraheavy",Arial,Helvetica,sans-serif; }
+.marketing-two-columns-panel h4, pagePresentationContentUnit h4 { font-size: 18px; font-family: "aig_futuraheavy",Arial,Helvetica,sans-serif; margin-top: 30px; }
+.marketing-two-columns-panel ol, pagePresentationContentUnit ol { padding:15px 10px 15px 40px; }
+.marketing-two-columns-panel p, pagePresentationContentUnit p { font-size: 15px; }
+.marketing-two-columns-panel ol li, pagePresentationContentUnit ol li { font-size: 15px; margin-bottom:10px; cursor: initial; }
+.marketing-two-columns-panel ul, pagePresentationContentUnit ul { padding:15px 10px 15px 40px; }
+.marketing-two-columns-panel ul li, pagePresentationContentUnit ul li { font-size: 15px; margin-bottom:10px; cursor: initial; }
+
+#banner-heading { padding-left: 20px; }
+
+
+/* Extra Small Devices, Phones */ 
+@media (max-width: 768px) {
+	
+.marketing-two-columns-panel {padding: 10px;}
+.marketing-two-columns-panel h2 { font-size: 28px; font-family: "aig_futuraheavy",Arial,Helvetica,sans-serif; }
+.marketing-two-columns-panel h3 { font-size: 20px; font-family: "aig_futuraheavy",Arial,Helvetica,sans-serif; }
+.marketing-two-columns-panel h4 { font-size: 16px; font-family: "aig_futuraheavy",Arial,Helvetica,sans-serif; margin-top: 30px; }
+.marketing-two-columns-panel ol { padding:15px 10px 15px 40px; }
+.marketing-two-columns-panel p { font-size: 14px; }
+.marketing-two-columns-panel ol li { font-size: 14px; margin-bottom:10px; cursor: initial; }
+.marketing-two-columns-panel ul { padding:15px 10px 15px 40px; }
+.marketing-two-columns-panel ul li { font-size: 14px; margin-bottom:10px; cursor: initial; }
+
+}
+
+
+.quote-hanger-footer {
+	font-size: 12px;
+	color: #ccc;
+}
+
+.quote-hanger-footer a {
+	font-size: 12px;
+	color: #ccc;
+	text-decoration:underline;
+}
+
+#side-form-section .container-fluid {
+    margin-bottom: 50px;
+}
+
+
+@media (max-width: 767px) { 
+	.quote-hanger-footer {
+		color: #888 !important;
+		font-size: 12px;
+		font-family: Arial, Helvetica, sans-serif;
+		padding: 0 15px;
+	}
+	
+	.quote-hanger-footer a {
+		font-size: 12px;
+		color: #888 !important;
+		text-decoration:underline;
+	}
+}
+
+
+
+/* 60 Million Stars */
+/* 60 Million Stars */
+
+.icons_salespanel_60million {
+	padding: 70px 20px 40px 20px;
+}
+
+.icons_salespanel_Stars {
+	padding: 30px 20px 40px 30px;
+}
+
+.icons_salespanel_60million p, .icons_salespanel_Stars p {
+	font-size:15px;
+}
+
+.icons_salespanel_Stars h2 {
+	font-size: 30px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	margin-top:6px !important;
+}
+
+.icons_salespanel_60million p {
+	padding-top:12px;
+}
+
+
+@media (max-width: 767px) {
+
+.icons_salespanel_60million {
+	padding: 40px 0 0 0;
+}
+
+.icons_salespanel_Stars {
+	padding: 20px 0 30px 0;
+}
+
+}
+
+/* 60 Million Stars */
+/* 60 Million Stars */
+
+/* AIG Branded */
+/* AIG Branded */
+
+<style><!--
+.AIGBranded_salespanel {
+	padding: 40px 20px 0 20px;
+}
+
+.AIGBranded_salespanel .left-content {
+    padding: 18px 10px 0 20px;
+}
+
+.AIGBranded_salespanel .right-content {
+    padding: 0 0 0 30px;
+}
+
+.AIGBranded_salespanel h2 {
+	font-size: 42px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+}
+.AIGBranded_salespanel h4 {
+	font-size: 24px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	padding-bottom:0;
+	margin-top: 20px !important;
+	margin-bottom: 10px !important;
+}
+.AIGBranded_salespanel p {
+	font-size: 17px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+}
+
+.AIGBranded_salespanel p strong {
+	font-size: 18px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+}
+.AIGBranded_salespanel a {
+	font-size: 17px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+}
+.AIGBranded_salespanel ul.AIGBranded_salespanel, .AIGBranded_salespanel li {
+	font-size: 17px !important;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+}
+
+.centered-button { text-align:left; padding-top:15px;}
+
+
+/* mobile */
+/* mobile */
+
+@media (max-width: 767px) {
+
+.AIGBranded_salespanel {
+	padding: 20px 10px !important;
+}
+
+.AIGBranded_salespanel .left-content {
+    padding: 6px 10px 0 10px !important;
+}
+
+.AIGBranded_salespanel .right-content {
+    padding: 10px 0 0 0 !important;
+}
+
+.AIGBranded_salespanel h2 {
+	font-size: 33px;
+	font-family: "aig_futuraregular",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	text-align:center;
+}
+.AIGBranded_salespanel h4 {
+	font-size: 19px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	padding-bottom:0;
+	margin-top:20px !important;
+	margin-bottom:6px !important;
+	text-align:center;
+}
+.AIGBranded_salespanel p {
+	font-size: 14px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+	text-align:center;
+}
+.AIGBranded_salespanel p strong {
+	font-size: 16px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+	text-align:center;
+}
+.AIGBranded_salespanel a {
+	font-size: 24px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+	text-align:center;
+}
+.centered-button { text-align:center; padding-top:10px;}
+
+}
+
+
+/* tablet portrait */
+/* tablet portrait */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.AIGBranded_salespanel .right-content {
+    padding: 0 0 0 30px;
+}
+
+.AIGBranded_salespanel h2 {
+	font-size: 34px;
+}
+.AIGBranded_salespanel h4 {
+	font-size: 32px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+}
+
+}
+
+/* tablet landscape */
+/* tablet landscape */
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.AIGBranded_salespanel .right-content {
+    padding: 10px 0px 0 30px;
+}
+
+}
+
+/* AIG Branded */
+/* AIG Branded */
+
+/* AIG - Over 60 Million People */
+/* AIG - Over 60 Million People */
+
+.AIGOver60MillionPeople_salespanel {
+	padding: 40px 20px 60px 20px;
+}
+
+.AIGOver60MillionPeople_salespanel .left-content {
+    padding: 18px 10px 0 20px;
+}
+
+.AIGOver60MillionPeople_salespanel .right-content {
+    padding: 26px 0px 0 30px;
+}
+
+.AIGOver60MillionPeople_salespanel h2 {
+	font-size: 42px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+}
+.AIGOver60MillionPeople_salespanel h4 {
+	font-size: 24px;
+	font-family: "aig_futuraregular",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	padding-bottom:0;
+	margin-top: 20px !important;
+	margin-bottom: 10px !important;
+}
+.AIGOver60MillionPeople_salespanel p {
+	font-size: 17px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+}
+.AIGOver60MillionPeople_salespanel p strong {
+	font-size: 18px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+}
+.AIGOver60MillionPeople_salespanel a {
+	font-size: 17px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+}
+.centered-button { text-align:left; padding-top:15px;}
+
+
+/* mobile */
+/* mobile */
+
+@media (max-width: 767px) {
+
+.AIGOver60MillionPeople_salespanel {
+	padding: 20px 10px !important;
+}
+
+.AIGOver60MillionPeople_salespanel .left-content {
+    padding: 6px 10px 0 10px !important;
+}
+
+.AIGOver60MillionPeople_salespanel .right-content {
+    padding: 10px 0 0 0 !important;
+}
+
+.AIGOver60MillionPeople_salespanel h2 {
+	font-size: 33px;
+	font-family: "aig_futuraregular",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	text-align:center;
+}
+.AIGOver60MillionPeople_salespanel h4 {
+	font-size: 19px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	padding-bottom:0;
+	margin-top:20px !important;
+	margin-bottom:6px !important;
+	text-align:center;
+}
+.AIGOver60MillionPeople_salespanel p {
+	font-size: 14px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+	text-align:center;
+}
+.AIGOver60MillionPeople_salespanel p strong {
+	font-size: 16px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+	text-align:center;
+}
+.AIGOver60MillionPeople_salespanel a {
+	font-size: 24px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+	text-align:center;
+}
+.centered-button { text-align:center; padding-top:10px;}
+
+}
+
+/* tablet portrait */
+/* tablet portrait */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.AIGOver60MillionPeople_salespanel .right-content {
+    padding: 0 0 0 30px;
+}
+
+.AIGOver60MillionPeople_salespanel h2 {
+	font-size: 34px;
+}
+.AIGOver60MillionPeople_salespanel h4 {
+	font-size: 20px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+}
+
+}
+
+/* tablet landscape */
+/* tablet landscape */
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.AIGOver60MillionPeople_salespanel .right-content {
+    padding: 10px 0px 0 30px;
+}
+
+}
+
+/* AIG - Over 60 Million People */
+/* AIG - Over 60 Million People */
+
+/* GIWL High Lights */
+/* GIWL High Lights */
+
+.GIWL_salespanel {
+	padding: 40px 20px 60px 20px;
+}
+
+.GIWL_salespanel .left-content {
+    padding: 48px 10px 0 20px;
+}
+
+.GIWL_salespanel .right-content {
+    padding: 40px 60px 0 30px;
+}
+
+.GIWL_salespanel h2 {
+	font-size: 42px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+}
+
+.GIWL_salespanel h3 {
+	font-size: 30px !important;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif !important;
+}
+
+.GIWL_salespanel h4 {
+	font-size: 20px;
+	font-family: "aig_futuraregular",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	padding-bottom:0;
+	margin-top: 20px !important;
+	margin-bottom: 10px !important;
+}
+.GIWL_salespanel p {
+	font-size: 17px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+}
+.GIWL_salespanel p strong {
+	font-size: 18px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+}
+.GIWL_salespanel a {
+	font-size: 17px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+}
+.centered-button { text-align:left; padding-top:15px;}
+
+
+/* mobile */
+/* mobile */
+
+@media (max-width: 767px) {
+
+.GIWL_salespanel {
+	padding: 20px 10px !important;
+}
+
+.GIWL_salespanel .left-content {
+    padding: 6px 10px 0 10px !important;
+}
+
+.GIWL_salespanel .right-content {
+    padding: 10px 0 0 0 !important;
+}
+
+.GIWL_salespanel h2 {
+	font-size: 33px;
+	font-family: "aig_futuraregular",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	text-align:center;
+}
+.GIWL_salespanel h3 {
+	font-size: 26px !important;
+}
+.GIWL_salespanel h4 {
+	font-size: 19px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	padding-bottom:0;
+	margin-top:20px !important;
+	margin-bottom:6px !important;
+	text-align:center;
+}
+.GIWL_salespanel p {
+	font-size: 14px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+	text-align:center;
+}
+.GIWL_salespanel p strong {
+	font-size: 16px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+	text-align:center;
+}
+.GIWL_salespanel a {
+	font-size: 24px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+	text-align:center;
+}
+.centered-button { text-align:center; padding-top:10px;}
+
+}
+
+/* tablet portrait */
+/* tablet portrait */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.GIWL_salespanel .right-content {
+    padding: 0 0 0 30px;
+}
+
+.GIWL_salespanel h2 {
+	font-size: 34px;
+}
+.GIWL_salespanel h4 {
+	font-size: 20px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+}
+
+}
+
+/* tablet landscape */
+/* tablet landscape */
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.GIWL_salespanel .right-content {
+    padding: 10px 0px 0 30px;
+}
+
+.GIWL_salespanel h3 {
+	font-size: 28px !important;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif !important;
+}
+
+}
+
+/* GIWL High Lights */
+/* GIWL High Lights */
+
+/* QOL High Lights 1 */
+/* QOL High Lights 1 */
+
+.QOL_1_Box_salespanel {
+	padding: 40px 20px 60px 20px;
+}
+
+.QOL_1_Box_salespanel .left-content {
+    padding: 48px 10px 0 20px;
+}
+
+.QOL_1_Box_salespanel .right-content {
+    padding: 40px 60px 0 30px;
+}
+
+.QOL_1_Box_salespanel h2 {
+	font-size: 42px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+}
+
+.QOL_1_Box_salespanel h3 {
+	font-size: 30px !important;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif !important;
+}
+
+.QOL_1_Box_salespanel h4 {
+	font-size: 20px;
+	font-family: "aig_futuraregular",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	padding-bottom:0;
+	margin-top: 20px !important;
+	margin-bottom: 10px !important;
+}
+.QOL_1_Box_salespanel p, .QOL_1_Box_salespanel ul li {
+	font-size: 17px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+}
+.QOL_1_Box_salespanel p strong {
+	font-size: 18px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+}
+.QOL_1_Box_salespanel a {
+	font-size: 17px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+	text-decoration:underline;
+}
+.centered-button { text-align:left; padding-top:15px;}
+
+.qolgraphics { padding-top:20px; padding-bottom:30px;}
+
+.accbenefits {
+	font-size: 16px; font-family: Arial, Helvetica, sans-serif;
+}
+
+/* mobile */
+/* mobile */
+
+@media (max-width: 767px) {
+
+.QOL_1_Box_salespanel {
+	padding: 20px 10px !important;
+}
+
+.QOL_1_Box_salespanel .left-content {
+    padding: 6px 10px 0 10px !important;
+}
+
+.QOL_1_Box_salespanel .right-content {
+    padding: 10px 0 0 0 !important;
+}
+
+.QOL_1_Box_salespanel h2 {
+	font-size: 33px;
+	font-family: "aig_futuraregular",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+}
+.QOL_1_Box_salespanel h3 {
+	font-size: 26px !important;
+}
+.QOL_1_Box_salespanel h4 {
+	font-size: 19px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	padding-bottom:0;
+	margin-top:20px !important;
+	margin-bottom:6px !important;
+}
+.QOL_1_Box_salespanel p{
+	font-size: 14px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+}
+
+.QOL_1_Box_salespanel ul li {
+	font-size: 14px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+	margin-left:14px;
+}
+.QOL_1_Box_salespanel p strong {
+	font-size: 14px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+}
+.QOL_1_Box_salespanel a {
+	font-size: 14px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+	text-align:center;
+	text-decoration:underline;
+}
+.centered-button { text-align:center; padding-top:10px;}
+
+.qolgraphics { padding-top:0; padding-bottom:30px;}
+
+.accbenefits {
+	font-size: 14px; font-family: Arial, Helvetica, sans-serif;
+	display:block;
+	margin-top:6px;
+}
+
+}
+
+/* tablet portrait */
+/* tablet portrait */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.QOL_1_Box_salespanel .right-content {
+    padding: 0 0 0 30px;
+}
+
+.QOL_1_Box_salespanel h2 {
+	font-size: 34px;
+}
+.QOL_1_Box_salespanel h4 {
+	font-size: 20px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+}
+
+.accbenefits {
+	display:block;
+	margin-top:6px;
+}
+
+}
+
+/* tablet landscape */
+/* tablet landscape */
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.QOL_1_Box_salespanel .right-content {
+    padding: 10px 0px 0 30px;
+}
+
+.QOL_1_Box_salespanel h3 {
+	font-size: 28px !important;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif !important;
+}
+
+
+}
+
+/* QOL High Lights 1 */
+/* QOL High Lights 1 */
+
+/* QOL High Lights 2 */
+/* QOL High Lights 2 */
+
+.QOL_1_Box_salespanel {
+	padding: 40px 20px 60px 20px;
+}
+
+.QOL_1_Box_salespanel .left-content {
+    padding: 48px 10px 0 20px;
+}
+
+.QOL_1_Box_salespanel .right-content {
+    padding: 40px 60px 0 30px;
+}
+
+.QOL_1_Box_salespanel h2 {
+	font-size: 42px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+}
+
+.QOL_1_Box_salespanel h3 {
+	font-size: 30px !important;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif !important;
+}
+
+.QOL_1_Box_salespanel h4 {
+	font-size: 20px;
+	font-family: "aig_futuraregular",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	padding-bottom:0;
+	margin-top: 20px !important;
+	margin-bottom: 10px !important;
+}
+.QOL_1_Box_salespanel p, .QOL_1_Box_salespanel ul li {
+	font-size: 17px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+}
+.QOL_1_Box_salespanel p strong {
+	font-size: 18px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+}
+.QOL_1_Box_salespanel a {
+	font-size: 17px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+	text-decoration:underline;
+}
+.centered-button { text-align:left; padding-top:15px;}
+
+.qolgraphics { padding-top:20px; padding-bottom:30px;}
+
+.accbenefits {
+	font-size: 16px; font-family: Arial, Helvetica, sans-serif;
+}
+
+/* mobile */
+/* mobile */
+
+@media (max-width: 767px) {
+
+.QOL_1_Box_salespanel {
+	padding: 20px 10px !important;
+}
+
+.QOL_1_Box_salespanel .left-content {
+    padding: 6px 10px 0 10px !important;
+}
+
+.QOL_1_Box_salespanel .right-content {
+    padding: 10px 0 0 0 !important;
+}
+
+.QOL_1_Box_salespanel h2 {
+	font-size: 33px;
+	font-family: "aig_futuraregular",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+}
+.QOL_1_Box_salespanel h3 {
+	font-size: 26px !important;
+}
+.QOL_1_Box_salespanel h4 {
+	font-size: 19px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	padding-bottom:0;
+	margin-top:20px !important;
+	margin-bottom:6px !important;
+}
+.QOL_1_Box_salespanel p{
+	font-size: 14px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+}
+
+.QOL_1_Box_salespanel ul li {
+	font-size: 14px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+	margin-left:14px;
+}
+.QOL_1_Box_salespanel p strong {
+	font-size: 14px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+}
+.QOL_1_Box_salespanel a {
+	font-size: 14px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+	text-align:center;
+	text-decoration:underline;
+}
+.centered-button { text-align:center; padding-top:10px;}
+
+.qolgraphics { padding-top:0; padding-bottom:30px;}
+
+.accbenefits {
+	font-size: 14px; font-family: Arial, Helvetica, sans-serif;
+	display:block;
+	margin-top:6px;
+}
+
+}
+
+/* tablet portrait */
+/* tablet portrait */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.QOL_1_Box_salespanel .right-content {
+    padding: 0 0 0 30px;
+}
+
+.QOL_1_Box_salespanel h2 {
+	font-size: 34px;
+}
+.QOL_1_Box_salespanel h4 {
+	font-size: 20px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+}
+
+.accbenefits {
+	display:block;
+	margin-top:6px;
+}
+
+}
+
+/* tablet landscape */
+/* tablet landscape */
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.QOL_1_Box_salespanel .right-content {
+    padding: 10px 0px 0 30px;
+}
+
+.QOL_1_Box_salespanel h3 {
+	font-size: 28px !important;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif !important;
+}
+
+
+}
+
+/* QOL High Lights 2 */
+/* QOL High Lights 2 */
+
+/* Rate Example */
+/* Rate Example */
+
+.icons_salespanel_rateexample2 {
+	padding: 40px 20px;
+}
+
+.icons_salespanel_rateexample2 .left-content {
+    padding: 18px 10px 0 20px;
+}
+
+.icons_salespanel_rateexample2 .right-content {
+    padding: 18px 0px 0 30px;
+}
+
+.icons_salespanel_rateexample2 h2 {
+	font-size: 36px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+}
+.icons_salespanel_rateexample2 p {
+	font-size: 17px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+}
+.icons_salespanel_rateexample2 p strong {
+	font-size: 18px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+}
+.icons_salespanel_rateexample2 a {
+	font-size: 17px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+
+.icons_salespanel_rateexample2 {
+	padding: 20px 10px !important;
+}
+
+.icons_salespanel_rateexample2 .left-content {
+    padding: 6px 10px 0 10px !important;
+}
+
+.icons_salespanel_rateexample2 .right-content {
+    padding: 10px 0 0 0 !important;
+}
+
+.icons_salespanel_rateexample2 h2 {
+	font-size: 28px;
+	font-family: "aig_futuraregular",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:20px;
+	text-align:center;
+}
+.icons_salespanel_rateexample2 p {
+	font-size: 14px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+}
+.icons_salespanel_rateexample2 p strong {
+	font-size: 16px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+}
+.icons_salespanel_rateexample2 a {
+	font-size: 24px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+}
+
+
+}
+
+/* Rate Example */
+/* Rate Example */
+
+/* ROP High Lights */
+/* ROP High Lights */
+
+.icons_salespanel_ROP {
+	padding: 40px 20px;
+}
+
+.icons_salespanel_ROP .left-content {
+    padding: 18px 10px 0 20px;
+}
+
+.icons_salespanel_ROP .right-content {
+    padding: 18px 0px 0 30px;
+}
+
+.icons_salespanel_ROP h2 {
+	font-size: 36px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+}
+.icons_salespanel_ROP h3 {
+	margin-top:0 !important;
+	margin-bottom: 10px !important;
+}
+
+.icons_salespanel_ROP h4 {
+	font-size: 24px;
+	font-family: "aig_futuraregular",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	padding-bottom:0;
+	margin-top:18px !important;
+	margin-bottom: 10px !important;
+}
+
+.icons_salespanel_ROP p {
+	font-size: 17px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+}
+.icons_salespanel_ROP p strong {
+	font-size: 18px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+}
+.icons_salespanel_ROP a {
+	font-size: 17px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+}
+
+.icons_salespanel_ROP ul.icons_salespanel_ROP, .icons_salespanel_ROP li {
+	font-size: 17px !important;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+	cursor: initial;
+}
+
+/* mobile */
+/* mobile */
+
+@media (max-width: 767px) {
+
+.icons_salespanel_ROP {
+	padding: 20px 10px !important;
+}
+
+.icons_salespanel_ROP .left-content {
+    padding: 6px 10px 0 10px !important;
+}
+
+.icons_salespanel_ROP .right-content {
+    padding: 10px 0 0 0 !important;
+}
+
+.icons_salespanel_ROP h2 {
+	font-size: 38px;
+	font-family: "aig_futuraregular",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:20px;
+	text-align:center;
+}
+.icons_salespanel_ROP h3 {
+	font-size: 24px;
+	margin-top:0 !important;
+	margin-bottom: 10px !important;
+	text-align:center;
+}
+
+.icons_salespanel_ROP h3 span {
+	display:block;
+}
+
+.icons_salespanel_ROP h4 {
+	font-size: 20px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	padding-bottom:0;
+	margin-top:18px !important;
+	margin-bottom:6px !important;
+	text-align:center;
+}
+.icons_salespanel_ROP p {
+	font-size: 16px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+	text-align:center;
+}
+.icons_salespanel_ROP p strong {
+	font-size: 16px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+	text-align:center;
+}
+.icons_salespanel_ROP a {
+	font-size: 24px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+}
+
+.icons_salespanel_ROP ul.icons_salespanel_ROP, .icons_salespanel_ROP li {
+    font-size: 16px !important;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+    margin-left: 10px;
+}
+
+}
+
+/* ROP High Lights */
+/* ROP High Lights */
+
+/* Trust Block - with mobile phone */
+/* Trust Block - with mobile phone */
+
+.banner-sales-blackbar {
+	background-color: #292d35;
+	padding-bottom: 8px;
+}
+.banner-sales-blackbar h3 {
+	font-size: 29px; 
+	font-family: 'aig_futuralight', Arial, Helvetica, sans-serif;
+	color: #fff; 
+}
+
+.trust-bar-horizontal {
+    min-height: 80px;
+    width: 100%;
+    padding: 0px 0px 10px 0px;
+    height: auto;
+}
+
+.trust-img-list {
+    padding-top: 15px;
+}
+
+.list-inline-trustblock > li {
+    display: inline-block;
+    padding-right: 28px;
+    padding-left: 28px;
+}
+
+/* mobile */
+/* mobile */
+
+@media (max-width: 767px) {
+	
+.banner-sales-blackbar {
+	background-color: #00a4e4;
+	padding-bottom: 8px;
+}
+.banner-sales-blackbar h3 {
+	font-size: 24px; 
+	font-family: 'aig_futuralight', Arial, Helvetica, sans-serif;
+	color: #fff; 
+}
+
+.banner-mobile-phone-blackbar  {
+	background-color: #222222;
+	padding-bottom: 8px;
+}
+
+.banner-mobile-phone-blackbar  h3 {
+	font-size: 26px; 
+	font-family: 'aig_futuralight', Arial, Helvetica, sans-serif;
+	color: #fff;
+	margin-top:18px; 
+}
+
+.banner-mobile-phone-blackbar  h3 span {
+	font-family: 'aig_futuraheavy', Arial, Helvetica, sans-serif;
+	display: block; 
+}
+
+.trust-bar-horizontal {
+    min-height: 80px;
+    width: 100%;
+    padding: 0px 0px 10px 0px;
+    height: auto;
+}
+
+.trust-img-list {
+    padding-top: 24px;
+}
+
+.list-inline-trustblock > li {
+    display: inline-block;
+    padding-right: 11px;
+    padding-left: 11px;
+}
+
+}
+
+/* Trust Block - with mobile phone */
+/* Trust Block - with mobile phone */
+
+/* Trust Block ADD - with mobile phone */
+/* Trust Block ADD - with mobile phone */
+
+.banner-sales-blackbar {
+	background-color: #292d35;
+	padding-bottom: 8px;
+}
+.banner-sales-blackbar h3 {
+	font-size: 29px; 
+	font-family: 'aig_futuralight', Arial, Helvetica, sans-serif;
+	color: #fff; 
+}
+
+.trust-bar-horizontal {
+    min-height: 80px;
+    width: 100%;
+    padding: 0px 0px 10px 0px;
+    height: auto;
+	background-color: #454545
+}
+
+.trust-img-list {
+    padding-top: 15px;
+}
+
+.list-inline-trustblock > li {
+    display: inline-block;
+    padding-right: 28px;
+    padding-left: 28px;
+}
+
+/* mobile */
+/* mobile */
+
+@media (max-width: 767px) {
+	
+.banner-sales-blackbar {
+	background-color: #00a4e4;
+	padding-bottom: 8px;
+}
+.banner-sales-blackbar h3 {
+	font-size: 24px; 
+	font-family: 'aig_futuralight', Arial, Helvetica, sans-serif;
+	color: #fff; 
+}
+
+.banner-mobile-phone-blackbar  {
+	background-color: #222222;
+	padding-bottom: 8px;
+}
+
+.banner-mobile-phone-blackbar  h3 {
+	font-size: 26px; 
+	font-family: 'aig_futuralight', Arial, Helvetica, sans-serif;
+	color: #fff;
+	margin-top:18px; 
+}
+
+.banner-mobile-phone-blackbar  h3 span {
+	font-family: 'aig_futuraheavy', Arial, Helvetica, sans-serif;
+	display: block; 
+}
+
+.trust-bar-horizontal {
+    min-height: 80px;
+    width: 100%;
+    padding: 0px 0px 10px 0px;
+    height: auto;
+	background-color: #dddddd
+}
+
+.trust-img-list {
+    padding-top: 24px;
+}
+
+.list-inline-trustblock-ADD > li {
+    display: inline-block;
+    padding-right: 11px;
+    padding-left: 11px;
+}
+
+}
+
+/* Trust Block ADD - with mobile phone */
+/* Trust Block ADD - with mobile phone */
+
+/* Universal High Lights */
+/* Universal High Lights */
+
+.icons_salespanel_universallife {
+	padding: 40px 20px;
+}
+
+.icons_salespanel_universallife .left-content {
+    padding: 18px 10px 0 20px;
+}
+
+.icons_salespanel_universallife .right-content {
+    padding: 18px 0px 0 30px;
+}
+
+.icons_salespanel_universallife h2 {
+	font-size: 36px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+}
+.icons_salespanel_universallife h4 {
+	font-size: 24px;
+	font-family: "aig_futuraregular",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	padding-bottom:0;
+	margin-top: 0 !important;
+	margin-bottom: 10px !important;
+}
+.icons_salespanel_universallife p {
+	font-size: 17px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+}
+.icons_salespanel_universallife p strong {
+	font-size: 18px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+}
+.icons_salespanel_universallife a {
+	font-size: 17px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+}
+
+.icons_salespanel_universallife ul.icons_salespanel_universallife, .icons_salespanel_universallife li {
+	font-size: 17px !important;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+	cursor: initial;
+}
+
+/* mobile */
+/* mobile */
+
+@media (max-width: 767px) {
+
+.icons_salespanel_universallife {
+	padding: 20px 10px !important;
+}
+
+.icons_salespanel_universallife .left-content {
+    padding: 6px 10px 0 10px !important;
+}
+
+.icons_salespanel_universallife .right-content {
+    padding: 10px 0 0 0 !important;
+}
+
+.icons_salespanel_universallife h2 {
+	font-size: 38px;
+	font-family: "aig_futuraregular",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:20px;
+	text-align:center;
+}
+.icons_salespanel_universallife h4 {
+	font-size: 24px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	padding-bottom:0;
+	margin-top:0 !important;
+	margin-bottom:6px !important;
+	text-align:center;
+}
+.icons_salespanel_universallife p {
+	font-size: 16px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+	text-align:center;
+}
+.icons_salespanel_universallife p strong {
+	font-size: 16px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+	text-align:center;
+}
+.icons_salespanel_universallife a {
+	font-size: 24px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+}
+
+.icons_salespanel_universallife ul.icons_salespanel_universallife, .icons_salespanel_universallife li {
+    font-size: 16px !important;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+    margin-left: 10px;
+}
+
+}
+
+/* Universal High Lights */
+/* Universal High Lights */
+
+/* What is Term Life Insurance */
+/* What is Term Life Insurance */
+
+.icons_salespanel_WhatisTerm {
+	padding: 40px 20px 60px 20px;
+}
+
+.icons_salespanel_WhatisTerm .left-content {
+    padding: 48px 10px 0 20px;
+}
+
+.icons_salespanel_WhatisTerm .right-content {
+    padding: 40px 60px 0 30px;
+}
+
+.icons_salespanel_WhatisTerm h2 {
+	font-size: 42px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+}
+
+.icons_salespanel_WhatisTerm h3 {
+	font-size: 30px !important;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif !important;
+}
+
+.icons_salespanel_WhatisTerm h4 {
+	font-size: 20px;
+	font-family: "aig_futuraregular",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	padding-bottom:0;
+	margin-top: 20px !important;
+	margin-bottom: 10px !important;
+}
+.icons_salespanel_WhatisTerm p {
+	font-size: 17px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.icons_salespanel_WhatisTerm p strong {
+	font-size: 18px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+}
+.icons_salespanel_WhatisTerm a {
+	font-size: 17px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+}
+.centered-button { text-align:left; padding-top:15px;}
+
+
+/* mobile */
+/* mobile */
+
+@media (max-width: 767px) {
+
+.icons_salespanel_WhatisTerm {
+	padding: 20px 10px !important;
+}
+
+.icons_salespanel_WhatisTerm .left-content {
+    padding: 6px 10px 0 10px !important;
+}
+
+.icons_salespanel_WhatisTerm .right-content {
+    padding: 10px 0 0 0 !important;
+}
+
+.icons_salespanel_WhatisTerm h2 {
+	font-size: 33px;
+	font-family: "aig_futuraregular",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	text-align:center;
+}
+.icons_salespanel_WhatisTerm h3 {
+	font-size: 26px !important;
+}
+.icons_salespanel_WhatisTerm h4 {
+	font-size: 19px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	padding-bottom:0;
+	margin-top:20px !important;
+	margin-bottom:6px !important;
+	text-align:center;
+}
+.icons_salespanel_WhatisTerm p {
+	font-size: 14px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+	text-align:center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.icons_salespanel_WhatisTerm p strong {
+	font-size: 16px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+	text-align:center;
+}
+.icons_salespanel_WhatisTerm a {
+	font-size: 24px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+	text-align:center;
+}
+.centered-button { text-align:center; padding-top:10px;}
+
+}
+/* mobile */
+/* mobile */
+
+
+/* tablet portrait */
+/* tablet portrait */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.icons_salespanel_WhatisTerm .right-content {
+    padding: 0 0 0 30px;
+}
+
+.icons_salespanel_WhatisTerm h2 {
+	font-size: 34px;
+}
+.icons_salespanel_WhatisTerm h4 {
+	font-size: 20px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+}
+
+.icons_salespanel_WhatisTerm p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+}
+
+/* tablet portrait */
+/* tablet portrait */
+
+
+/* tablet landscape */
+/* tablet landscape */
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.icons_salespanel_WhatisTerm .right-content {
+    padding: 10px 0px 0 30px;
+}
+
+.icons_salespanel_WhatisTerm h3 {
+	font-size: 28px !important;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif !important;
+}
+
+}
+
+/* tablet landscape */
+/* tablet landscape */
+
+
+/* What is Term Life Insurance */
+/* What is Term Life Insurance */
+
+/* What Can Life Insurance Do for Me */
+/* What Can Life Insurance Do for Me */
+
+.icons_salespanel_WhatCanInsuranceDoForMe {
+	padding: 30px 0 60px 0;
+}
+.icons_salespanel_WhatCanInsuranceDoForMe h2 {
+	font-size: 48px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:20px;
+}
+.icons_salespanel_WhatCanInsuranceDoForMe h3 {
+	font-size: 32px;
+	font-family: "aig_futuralight",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+}
+.icons_salespanel_WhatCanInsuranceDoForMe  p {
+	font-size: 23px;
+	font-family: "aig_futuralight",Arial,Helvetica,sans-serif;
+    color: #000;
+}
+.icons_salespanel_WhatCanInsuranceDoForMe  p strong {
+	font-size: 23px;
+	font-family: "aig_futuralight",Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+}
+.icons_salespanel_WhatCanInsuranceDoForMe  a {
+	font-size: 23px;
+	font-family: "aig_futuralight",Arial,Helvetica,sans-serif;
+    color: #fff;
+}
+.icons_salespanel_WhatCanInsuranceDoForMe h4 {
+	font-size: 19px;
+	font-family: "aig_futuraheavy",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0 !important;
+	margin-top:0 !important;
+}
+
+/* mobile */
+/* mobile */
+
+@media (max-width: 767px) {
+.icons_salespanel_WhatCanInsuranceDoForMe h2 {
+	font-size: 30px;
+	font-family: "aig_futuraregular",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:20px;
+	text-align:center;
+}
+.icons_salespanel_WhatCanInsuranceDoForMe  p {
+	font-size: 15px;
+	font-family: "aig_futuraregular",Arial,Helvetica,sans-serif;
+    color: #000;
+	text-align:center;
+}
+.icons_salespanel_WhatCanInsuranceDoForMe  p strong {
+	font-size: 18px;
+	font-family: "aig_futuraregular",Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+	text-align:center;
+}
+.icons_salespanel_WhatCanInsuranceDoForMe a {
+	font-size: 24px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #fff;
+}
+
+}
+
+/* What Can Life Insurance Do for Me */
+/* What Can Life Insurance Do for Me */
+
+/* What Can We do for YOU */
+/* What Can We do for YOU */
+
+.whatwedoforyou_salespanel {
+	padding: 40px 20px 60px 20px;
+}
+
+.whatwedoforyou_salespanel .left-content {
+    padding: 18px 10px 0 20px;
+}
+
+.whatwedoforyou_salespanel .right-content {
+    padding: 0px 0px 0 0px;
+}
+
+.whatwedoforyou_salespanel h2 {
+	font-size: 42px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+}
+.whatwedoforyou_salespanel h4 {
+	font-size: 24px;
+	font-family: "aig_futuraregular",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	padding-bottom:0;
+	margin-top: 20px !important;
+	margin-bottom: 10px !important;
+}
+.whatwedoforyou_salespanel p {
+	font-size: 17px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+}
+.whatwedoforyou_salespanel p strong {
+	font-size: 18px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+}
+.whatwedoforyou_salespanel a {
+	font-size: 17px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+}
+.centered-button { text-align:left; padding-top:15px;}
+
+
+/* mobile */
+/* mobile */
+
+@media (max-width: 767px) {
+
+.whatwedoforyou_salespanel {
+	padding: 20px 10px !important;
+}
+
+.whatwedoforyou_salespanel .left-content {
+    padding: 6px 10px 0 10px !important;
+}
+
+.whatwedoforyou_salespanel .right-content {
+    padding: 10px 0 0 0 !important;
+}
+
+.whatwedoforyou_salespanel h2 {
+	font-size: 33px;
+	font-family: "aig_futuraregular",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	text-align:center;
+}
+.whatwedoforyou_salespanel h4 {
+	font-size: 19px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	padding-bottom:0;
+	margin-top:20px !important;
+	margin-bottom:6px !important;
+	text-align:center;
+}
+.whatwedoforyou_salespanel p {
+	font-size: 14px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+	text-align:center;
+}
+.whatwedoforyou_salespanel p strong {
+	font-size: 16px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+	text-align:center;
+}
+.whatwedoforyou_salespanel a {
+	font-size: 24px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+	text-align:center;
+}
+.centered-button { text-align:center; padding-top:10px;}
+
+}
+
+/* tablet portrait */
+/* tablet portrait */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.whatwedoforyou_salespanel .right-content {
+    padding: 0 0 0 30px;
+}
+
+.whatwedoforyou_salespanel h2 {
+	font-size: 34px;
+}
+.whatwedoforyou_salespanel h4 {
+	font-size: 20px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+}
+
+}
+
+/* tablet landscape */
+/* tablet landscape */
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.whatwedoforyou_salespanel .right-content {
+    padding: 10px 0px 0 30px;
+}
+
+}
+
+/* What Can We do for YOU */
+/* What Can We do for YOU */
+
+/* Whole Life High-Lights */
+/* Whole Life High-Lights */
+
+.icons_salespanel_wholelife {
+	padding: 40px 20px;
+}
+
+.icons_salespanel_wholelife .left-content {
+    padding: 18px 10px 0 20px;
+}
+
+.icons_salespanel_wholelife .right-content {
+    padding: 18px 0px 0 30px;
+}
+
+.icons_salespanel_wholelife h2 {
+	font-size: 36px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+}
+.icons_salespanel_wholelife h4 {
+	font-size: 24px;
+	font-family: "aig_futuraregular",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	padding-bottom:0;
+	margin-top: 20px !important;
+	margin-bottom: 10px !important;
+}
+.icons_salespanel_wholelife p {
+	font-size: 17px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+}
+.icons_salespanel_wholelife p strong {
+	font-size: 18px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+}
+.icons_salespanel_wholelife a {
+	font-size: 17px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+}
+
+.icons_salespanel_wholelife ul.icons_salespanel_wholelife, .icons_salespanel_wholelife li {
+	font-size: 17px !important;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+	cursor: initial;
+}
+
+/* mobile */
+/* mobile */
+
+@media (max-width: 767px) {
+
+.icons_salespanel_wholelife {
+	padding: 20px 10px !important;
+}
+
+.icons_salespanel_wholelife .left-content {
+    padding: 6px 10px 0 10px !important;
+}
+
+.icons_salespanel_wholelife .right-content {
+    padding: 10px 0 0 0 !important;
+}
+
+.icons_salespanel_wholelife h2 {
+	font-size: 28px;
+	font-family: "aig_futuraregular",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:20px;
+	text-align:center;
+}
+.icons_salespanel_wholelife h4 {
+	font-size: 24px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #000;
+	padding-top:0;
+	padding-bottom:0;
+	margin-top:20px !important;
+	margin-bottom:6px !important;
+	text-align:center;
+}
+.icons_salespanel_wholelife p {
+	font-size: 16px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+	text-align:center;
+}
+.icons_salespanel_wholelife p strong {
+	font-size: 16px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #000;
+	text-align:center;
+}
+.icons_salespanel_wholelife a {
+	font-size: 24px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+}
+
+.icons_salespanel_wholelife ul.icons_salespanel_wholelife, .icons_salespanel_wholelife li {
+    font-size: 16px !important;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+    margin-left: 10px;
+}
+
+}
+
+/* Whole Life High-Lights */
+/* Whole Life High-Lights */
+
+/* Why AIG Direct (map) */
+/* Why AIG Direct (map) */
+
+.whyaigdirect_salespanel {
+	padding: 0px 20px 60px 20px;
+}
+
+.whyaigdirect_salespanel .left-content {
+    padding: 18px 10px 0 20px;
+}
+
+.whyaigdirect_salespanel .right-content {
+    padding: 20px 0px 0 30px;
+}
+
+.whyaigdirect_salespanel h2 {
+	font-size: 54px;
+	font-family: "aig_futuralight",Arial,Helvetica,sans-serif;
+    color: #fff;
+	padding-top:0;
+}
+.whyaigdirect_salespanel h4 {
+	font-size: 32px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #fff;
+	padding-top:0;
+	padding-bottom:0;
+	margin-top: 20px !important;
+	margin-bottom: 10px !important;
+}
+.whyaigdirect_salespanel p {
+	font-size: 15px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+	font-weight:100;
+}
+.whyaigdirect_salespanel p strong {
+	font-size: 21px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #fff;
+}
+.whyaigdirect_salespanel a {
+	font-size: 19px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+}
+
+/* mobile */
+/* mobile */
+
+@media (max-width: 767px) {
+
+.whyaigdirect_salespanel {
+	padding: 20px 10px !important;
+}
+
+.whyaigdirect_salespanel .left-content {
+    padding: 6px 10px 0 10px !important;
+}
+
+.whyaigdirect_salespanel .right-content {
+    padding: 10px 0 0 0 !important;
+}
+
+.whyaigdirect_salespanel h2 {
+	font-size: 33px;
+	font-family: "aig_futuralight",Arial,Helvetica,sans-serif;
+    color: #fff;
+	padding-top:0;
+	text-align:center;
+}
+.whyaigdirect_salespanel h4 {
+	font-size: 24px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+    color: #fff;
+	padding-top:0;
+	padding-bottom:0;
+	margin-top:20px !important;
+	margin-bottom:6px !important;
+	text-align:center;
+}
+.whyaigdirect_salespanel p {
+	font-size: 14px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+	text-align:center;
+}
+.whyaigdirect_salespanel p strong {
+	font-size: 16px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+    color: #fff;
+	text-align:center;
+}
+.whyaigdirect_salespanel a {
+	font-size: 24px;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #fff;
+	text-align:center;
+}
+
+.list-inline-trustblock > li {
+    display: inline-block;
+    padding-right: 10px !important;
+    padding-left: 0 !important;
+}
+
+.trust-img-list {
+    padding-top: 20px;
+    margin: 0px 20px;
+}
+
+}
+
+/* tablet portrait */
+/* tablet portrait */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.whyaigdirect_salespanel .right-content {
+    padding: 0 0 0 30px;
+}
+
+.whyaigdirect_salespanel h2 {
+	font-size: 42px;
+}
+.whyaigdirect_salespanel h4 {
+	font-size: 25px;
+	font-family: "aig_futuramedium",Arial,Helvetica,sans-serif;
+}
+
+}
+
+/* tablet landscape */
+/* tablet landscape */
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.whyaigdirect_salespanel .right-content {
+    padding: 10px 0px 0 30px;
+}
+
+}
+
+/* Why AIG Direct (map) */
+/* Why AIG Direct (map) */
+

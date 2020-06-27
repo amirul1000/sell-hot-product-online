@@ -1,0 +1,339 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+ul, li {
+    list-style-type: none;
+}
+.config-errors h3 {
+    margin: 5px;
+    padding: 10px 0;
+}
+.config-errors ul {
+    margin: 0;
+    padding: 0;
+}
+.config-errors li {
+    background-color: #fcc;
+    border: 1px solid #c00;
+    color: #333;
+    font: 15px/20px arial,sans-serif;
+    margin: 5px;
+    padding: 10px;
+}
+.config-errors li strong {
+    float: right;
+}
+form {
+}
+form .has-error {
+    border: 1px solid red;
+}
+.app-benchmark {
+    background-color: #ccc;
+    bottom: 0;
+    color: #333;
+    left: 0;
+    padding: 5px 1%;
+    position: fixed;
+    text-align: right;
+    width: 98%;
+}
+#error_handler_overlay, #app_common_modal {
+    background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+    display: none;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99990;
+}
+#error_handler_overlay .error_handler_body {
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    color: #333;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    margin: 100px auto;
+    max-width: 600px;
+    outline: 0 none;
+    padding: 20px;
+    position: relative;
+    width: 77%;
+}
+#error_handler_overlay_close, #app_common_modal_close {
+    background-color: #333;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -10px;
+    text-align: center;
+    text-decoration: none;
+    top: -10px;
+    width: 30px;
+}
+#error_handler_overlay .error_handler_body ul {
+}
+#app_common_modal .app_modal_body {
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    color: #333;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    margin: 100px auto;
+    max-width: 600px;
+    min-height: 400px;
+    min-width: inherit;
+    outline: 0 none;
+    padding: 10px;
+    position: relative;
+    z-index: 999;
+}
+#app_common_modal .app_modal_body iframe {
+    border: 1px solid rgb(213, 214, 239);
+    min-height: 400px;
+    width: 100%;
+}
+.exitpopup-overlay {
+    background: rgba(0, 0, 0, 0.76) none repeat scroll 0 0;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
+.exitpop-content {
+    border: medium none;
+    height: 430px;
+    left: 50%;
+    margin: -215px 0 0 -425px;
+    padding: 0;
+    position: fixed;
+    text-align: left;
+    top: 50%;
+    width: 850px;
+    z-index: 99999;
+}
+.exitpop-content img {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+.exitpop-discountbar {
+    background-color: red;
+    border-bottom: 4px dashed white;
+    color: white;
+    display: none;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.app-load-spinner {
+    animation: 1s ease-in-out 0s normal none infinite running scaleout;
+    background-color: #333;
+    border-radius: 100%;
+    bottom: 0;
+    display: none;
+    height: 100px;
+    left: 0;
+    margin: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100px;
+}
+form .no-error {
+    background: #fff url("../../images/tick-input.png") no-repeat scroll 100% center  !important;
+    border: 1px solid #008000 !important;
+}
+form .has-error {
+    background: #fff url("../../images/error-input.png") no-repeat scroll 100% center  !important;
+    border: 1px solid #ffa500 !important;
+}
+@keyframes scaleout {
+0% {
+    transform: scale(0);
+}
+100% {
+    opacity: 0;
+    transform: scale(1);
+}
+}
+.float-left {
+    float: left;
+}
+.clear {
+    clear: both;
+    height: 0;
+    line-height: 0;
+}
+.all-card-types li {
+    float: left;
+    margin-right: 20px;
+}
+#loaderImage {
+    bottom: 0;
+    height: 100px;
+    left: 0;
+    margin: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100px;
+}
+@media screen and (max-width: 766px) {
+.exitpop-content {
+    border: medium none;
+    height: 400px;
+    left: 0;
+    margin: 0 auto;
+    min-width: inherit !important;
+    padding: 0;
+    position: fixed;
+    text-align: left;
+    top: 10%;
+    width: 100%;
+    z-index: 999;
+}
+#crm-response-container {
+    width: 92% !important;
+	   color: #fff;
+    display: none;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+}
+#loading-indicator {
+    width: 100% !important;
+}
+form p {
+    margin: 0 0 8px !important;
+    padding: 0;
+}
+#error_handler_overlay .error_handler_body ul li {
+    margin: 0;
+    padding: 0;
+}
+}
+@media only screen and (min-width: 480px) {
+#app_common_modal .app_modal_body {
+    margin: 20px auto;
+}
+}
+.float-left {
+    float: left;
+}
+.clear {
+    clear: both;
+    height: 0;
+    line-height: 0;
+}
+.all-card-types li {
+    float: left;
+    margin-right: 20px;
+}
+#loaderImage {
+    bottom: 0;
+    height: 100px;
+    left: 0;
+    margin: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100px;
+	z-index:10;
+}
+#loading-indicator {
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    box-sizing: border-box;
+    font-size: 1px;
+    height: 100%;
+    left: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+	z-index:11; 
+	
+}
+#loading-indicator::before {
+    background: rgba(0, 0, 0, 0) url("../../images/loader.GIF") no-repeat scroll center center;
+    box-sizing: border-box;
+    content: "";
+    height: 70px;
+    left: 50%;
+    margin-left: -35px;
+    margin-top: -70px;
+    position: absolute;
+    top: 50%;
+    width: 70px;
+     z-index: 999;
+}
+#loading-indicator::after {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #000;
+    content: "Processing, one moment please... ";
+    font-family: arial;
+    font-size: 17px;
+    height: 110px;
+    left: 50%;
+    line-height: 98px;
+    margin-left: -150px;
+    margin-top: -75px;
+    padding-top: 35px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 300px;
+     z-index: 99;
+}
+input.has-error, select.has-error {
+    background: #fff url("../../images/error-input.png") no-repeat scroll right center;
+    border: 1px solid red !important;
+}
+input.no-error, select.no-error {
+    background: #fff url("../../images/tick-input.png") no-repeat scroll right center;
+    border: 1px solid green !important;
+}
+.app-benchmark {
+    display: none;
+}
+
+
+@media only screen and (max-width:480px){#app_common_modal .app_modal_body{margin:10px auto;min-width:250px;max-width:300px;min-height:400px;color:#333;padding:10px;background-color:#fff;-webkit-background-clip:padding-box;background-clip:padding-box;border:1px solid #999;border:1px solid rgba(0,0,0,.2);border-radius:0px;outline:0;-webkit-box-shadow:0 3px 9px rgba(0,0,0,.5);box-shadow:0 3px 9px rgba(0,0,0,.5);font-family:Verdana, Geneva, sans-serif;font-size:14px;line-height:1.42857143;position:relative;overflow:inherit;overflow-y:scroll;-webkit-overflow-scrolling:touch;}
+}
